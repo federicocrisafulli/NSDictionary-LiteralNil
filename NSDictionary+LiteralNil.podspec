@@ -4,7 +4,7 @@ Pod::Spec.new do |s|
   s.summary          = 'preventing "attempt to insert nil object" runtime exception while using NSDictionary literal syntax.'
   s.description      = 'NSDictionary+LiteralNil preventing "attempt to insert nil object" runtime exception while using NSDictionary literal syntax.'
   s.homepage         = 'https://github.com/federicocrisafulli/NSDictionary-LiteralNil'
-  s.license          = { :type => 'MIT' }
+  s.license          = { :type => 'MIT', :text => license }
   s.author           = { 'federicocrisafulli' => 'federico.crisafulli@wisemotions.com' }
   s.source           = { :git => 'https://github.com/federicocrisafulli/NSDictionary-LiteralNil.git', :tag => s.version.to_s }
   s.ios.deployment_target = '8.0'
