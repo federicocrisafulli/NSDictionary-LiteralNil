@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
   s.name             = 'NSDictionary+LiteralNil'
   s.version          = '0.1.0'
   s.summary          = 'preventing runtime exception while using NSDictionary literal syntax.'
-  s.description      = <<-DESC
+  s.description      = 'NSDictionary+LiteralNil preventing runtime exception while using NSDictionary literal syntax.'
   s.homepage         = 'https://github.com/federicocrisafulli/NSDictionary-LiteralNil'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'federicocrisafulli' => 'federico.crisafulli@wisemotions.com' }
